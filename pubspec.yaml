@@ -1,0 +1,18 @@
+name: auto_json_converter
+description: Provides annotations and builders to generate JsonConverters for types that support toJson and fromJson methods.
+version: 1.0.0
+repository: https://github.com/Oliphan/DartAutoJsonConverter
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  json_annotation: ^4.9.0
+  analyzer: ^8.2.0
+  source_gen: ^4.0.1
+  build: ^4.0.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  json_serializable: ^6.11.1
+  build_runner: ^2.8.0

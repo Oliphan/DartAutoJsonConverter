@@ -1,0 +1,15 @@
+builders:
+  auto_json_converter:
+    import: "package:auto_json_converter/builder.dart"
+    builder_factories: ["autoJsonConverterBuilder"]
+    build_extensions: { ".dart": [".g.dart"] }
+    auto_apply: dependents
+    build_to: source
+    runs_before: ["json_serializable:json_serializable"]
+
+targets:
+  $default:
+    builders:
+      auto_json_converter:
+        generate_for:
+          - example/*

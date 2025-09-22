@@ -1,0 +1,20 @@
+{
+    "Add generated part for current file": {
+        "body": [
+            "part '$TM_FILENAME_BASE.g.dart';"
+        ],
+        "description": "Adds a part statement to import the current file's generated code.",
+        "prefix": "generated",
+        "scope": "dart"
+    },
+    "Add to/from json methods": {
+        "body": [
+            "factory ${TM_FILENAME_BASE/(^|_)([a-zA-Z0-9])/${2:/upcase}/g}.fromJson(Map<String, dynamic> json) => _$${TM_FILENAME_BASE/(^|_)([a-zA-Z0-9])/${2:/upcase}/g}FromJson(json);",
+            "",
+            "Map<String, dynamic> toJson() => _$${TM_FILENAME_BASE/(^|_)([a-zA-Z0-9])/${2:/upcase}/g}ToJson(this);"
+        ],
+        "description": "Adds methods to convert the current type to/from json.",
+        "prefix": "tofromjson",
+        "scope": "dart"
+    }
+}
