@@ -4,7 +4,7 @@ builders:
     builder_factories: ["autoJsonConverterBuilder"]
     build_extensions: { ".dart": [".g.dart"] }
     auto_apply: dependents
-    build_to: source
+    build_to: cache
     runs_before: ["json_serializable:json_serializable"]
 
 targets:
