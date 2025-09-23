@@ -1,4 +1,4 @@
-import 'package:auto_json_converter/auto_json_converter.dart';
+import 'package:auto_json_converter_annotations/auto_json_converter_annotations.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'auto_json_converter_example.g.dart';

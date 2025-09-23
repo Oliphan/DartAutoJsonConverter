@@ -1,8 +1,7 @@
 import 'package:analyzer/dart/element/element.dart';
+import 'package:auto_json_converter_annotations/auto_json_converter_annotations.dart';
 import 'package:build/build.dart';
 import 'package:source_gen/source_gen.dart';
-
-import 'auto_json_converter_annotation.dart';
 
 class AutoJsonConverterGenerator
     extends GeneratorForAnnotation<AutoJsonConverter> {
