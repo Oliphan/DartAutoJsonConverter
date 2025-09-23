@@ -1,3 +1,7 @@
+## 2.0.1
+
+- Updated readme.
+
 ## 2.0.0
 
 - Split `AutoJsonConverter` annotation out into auto_json_converter_annotations package.
