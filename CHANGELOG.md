@@ -1,3 +1,7 @@
+## 2.0.2
+
+- Fixed typos and changed version numbers referenced in Readme.
+
 ## 2.0.1
 
 - Updated readme.
