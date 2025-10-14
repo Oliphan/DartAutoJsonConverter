@@ -4,7 +4,7 @@ Generates `JsonConverter<T, Map<String, dynamic>>` classes for types that implem
 
 First follow the setup steps for the [json_serializable](https://pub.dev/packages/json_serializable) package.
 
-Then the following dependencies to your `pubspec.yaml`:
+Then add the following dependencies to your `pubspec.yaml`:
 ```yaml
 dependencies:
   auto_json_converter_annotations: ^1.0.0
