@@ -7,10 +7,10 @@ First follow the setup steps for the [json_serializable](https://pub.dev/package
 Then add the following dependencies to your `pubspec.yaml`:
 ```yaml
 dependencies:
-  auto_json_converter_annotations: ^1.0.0
+  auto_json_converter_annotations: ^1.0.1
 
 dev_dependencies:
-  auto_json_converter: ^2.0.0
+  auto_json_converter: ^2.0.2
 ```
 
 ## Usage
